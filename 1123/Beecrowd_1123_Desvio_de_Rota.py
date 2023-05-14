@@ -146,8 +146,8 @@ class VetorHeap:
 
 
     # ================================================================================================
-    # algoritmo recursivo de dijkstra -  modificado para percorrer todos os nohs, 
-    # mesmo que seja preciso repetir nohs
+    # algoritmo recursivo de dijkstra -  modificado para, a partir de um novo grafo com a rota incluida,
+    # ao encontrar uma cidade da rota para de procurar o menor custo e segue a rota ate o destino
     # ================================================================================================
     def dikstra_adaptado(self, noh_escolhido, noh_final):
         # se alcancar o noh_final, sai da recursao
