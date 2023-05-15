@@ -18,7 +18,7 @@ Escolhemos 5 exercícios do Beecrowd sobre a matéria estudada.
 > Prim - Nível 5 - [3144 - G de Grafo](3144/Beecrowd_3144_G_de_Grafo.py)<br>
 > Dijkstra - Nível 4 - [1123 - Desvio de Rota](1123/Beecrowd_1123_Desvio_de_Rota.py)<br>
 
-Obs.: O código 1123, ao ser submetido ao Beecrowd, gerou Run Time Error. No log fornecido, o erro gerado é "<<< file is too large >>>". Acreditamos que o erro se deu ao log de saída do Beecrowd ter excedido o número máximo de linhas. Pode ter sido em decorrência da linguagem escolhida (Python) e não necessariamente um erro no código, já que o código passa nos testes do Beecrowd até o momento que o buffer do log "estoura". 
+Obs.: O código 1123, ao ser submetido ao Beecrowd, gerou Run Time Error. No log fornecido, o erro gerado é "<<< file is too large >>>". Acreditamos que o erro se deu ao log de saída do Beecrowd ter excedido o número máximo de linhas. Pode ter sido em decorrência da forma como o nosso código foi escrito, sem o uso das bibliotecas de grafo e heap, e não necessariamente um erro no código, já que o código passa nos testes do Beecrowd até o momento que o buffer do log "estoura". 
 
 ## Screenshots
 
@@ -50,4 +50,3 @@ Outra forma de verificar o código é submetê-lo ao juiz do Beecrowd.<br>
     
 ## Outros 
 Foram escolhidos um exercício de algoritmo de Dijkstra, dois de Prim e dois de Kruskal.
-
